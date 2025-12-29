@@ -1,4 +1,4 @@
-package br.com.alurastudy.screenmatchspring.sevice;
+package br.com.alurastudy.screenmatchspring.service;
 
 import java.io.IOException;
 import java.net.URI;
@@ -26,5 +26,4 @@ public class ConsumoApi {
         String json = response.body();
         return json;
     }
-
 }
